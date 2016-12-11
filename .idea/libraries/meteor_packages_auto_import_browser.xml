@@ -148,8 +148,10 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.8.8/web.browser/client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.8.8/web.browser/server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.8.8/web.browser/promise-tests.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/kadira_blaze-layout/2.3.0/web.browser/lib/client/layout.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.13/web.browser/pre.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.13/web.browser/post.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/kadira_blaze-layout/2.3.0/web.browser/lib/client/namespace.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.13/web.browser/fastclick.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.10/web.browser/geojson-utils.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.10/web.browser/main.js" />
@@ -330,8 +332,10 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.8.8/web.browser/client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.8.8/web.browser/server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/promise/0.8.8/web.browser/promise-tests.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/kadira_blaze-layout/2.3.0/web.browser/lib/client/layout.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.13/web.browser/pre.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.13/web.browser/post.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/kadira_blaze-layout/2.3.0/web.browser/lib/client/namespace.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fastclick/1.0.13/web.browser/fastclick.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.10/web.browser/geojson-utils.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/geojson-utils/1.0.10/web.browser/main.js" />

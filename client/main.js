@@ -11,7 +11,7 @@ Template.hello.onCreated(function helloOnCreated() {
 Template.hello.helpers({
   counter() {
     return Template.instance().counter.get();
-  },
+  }
 });
 
 Template.hello.events({
