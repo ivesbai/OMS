@@ -38,5 +38,21 @@ Template.login.events({
                 //FlowRouter.go('/index');
             }
         });
+    },
+    'submit form' : function(event, template) {
+      event.preventDefault();
+      console.log(event);
+      var email = template.$('#email').val();
+      var password = template.$('#password').val();
+      console.log(email, password);
+      Meteor.loginWithPassword(email, password, function(err) {
+        if (err) {
+          console.error(err);
+        } else {
+          console.log("login successfully!");
+          console.log(Meteor.user());
+          //FlowRouter.go('/index');
+        }
+      });
     }
 });
