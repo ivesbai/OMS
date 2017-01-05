@@ -1,22 +1,20 @@
-import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
+Meteor.startup(function () {
+  var getUserLanguage = function () {
+    return "zh";
+  };
 
-import './main.html';
+  //Session.set("showLoadingIndicator", true);
+  TAPi18n.setLanguage(getUserLanguage())
+          .done(function () {
+            //Session.set("showLoadingIndicator", false);
+            console.log('setLanguage success!');
+          })
+          .fail(function (error_message) {
+            // Handle the situation
+            console.log(error_message);
+          });
 
-Template.hello.onCreated(function helloOnCreated() {
-  // counter starts at 0
-  this.counter = new ReactiveVar(0);
-});
-
-Template.hello.helpers({
-  counter() {
-    return Template.instance().counter.get();
-  }
-});
-
-Template.hello.events({
-  'click button'(event, instance) {
-    // increment the counter when button is clicked
-    instance.counter.set(instance.counter.get() + 1);
-  },
+  Deps.autorun(function(){
+    document.title = Session.get("DocumentTitle");
+  });
 });

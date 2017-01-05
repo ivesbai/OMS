@@ -25,3 +25,5 @@ accounts-password
 kadira:flow-router
 alanning:roles
 kadira:blaze-layout
+tap:i18n                        #i18n
+session

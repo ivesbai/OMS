@@ -1,0 +1,10 @@
+{
+  "en": {
+    "name": "English", // Local name
+    "en" : "English"    // English name
+  },
+  "zh": {
+    "name":"中文",     // Local name
+    "en":"Chinese"    // English name
+  }
+}
